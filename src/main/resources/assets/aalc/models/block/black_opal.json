@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aalc:block/deepslate_diamond_ore",
+    "up": "aalc:block/deepslate_diamond_ore",
+    "north": "aalc:block/deepslate_diamond_ore",
+    "east": "aalc:block/deepslate_diamond_ore",
+    "south": "aalc:block/deepslate_diamond_ore",
+    "west": "aalc:block/deepslate_diamond_ore",
+    "particle": "aalc:block/deepslate_diamond_ore"
+  },
+  "render_type": "solid"
+}
