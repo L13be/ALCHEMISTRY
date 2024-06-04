@@ -1,0 +1,39 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/sh.png",
+    "icon": {
+      "item": "aalc:nakidka_chestplate"
+    },
+    "title": {
+      "translate": "Всемогущий Алхимик"
+    },
+    "description": {
+      "translate": "Поздравляем вы стали владельцем легендарной накидки великого алхимика"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "uni_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aalc:nakidka_chestplate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
