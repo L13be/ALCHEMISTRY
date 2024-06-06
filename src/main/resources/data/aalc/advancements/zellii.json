@@ -5,10 +5,10 @@
       "item": "minecraft:glass_bottle"
     },
     "title": {
-      "translate": "advancements.zellii.title"
+      "translate": "Юный алхимик"
     },
     "description": {
-      "translate": "advancements.zellii.descr"
+      "translate": "ВЫ приготовили свое первое зелье с использование опала"
     },
     "frame": "goal",
     "show_toast": true,
